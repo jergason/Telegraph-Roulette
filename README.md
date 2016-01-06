@@ -9,12 +9,8 @@ Install the dependencies
 
 ```bash
 npm install
-```
-
-Run the server
-
-```bash
-node app.js
+npm run build
+npm start
 ```
 
 Visit [http://localhost:3005/index.html](http://localhost:3005/index.html)

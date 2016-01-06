@@ -4,7 +4,9 @@
   "description": "Telegraph-Roulette ==================",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "build": "webpack public/main.js public/build/main.js",
+    "watch": "webpack -w public/main.js public/build/main.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +16,12 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
-    "socket.io": "~0.9.13",
-    "express": "~3.0.5"
+    "async": "1.5.1",
+    "express": "~3.0.5",
+    "notes-to-frequencies": "1.0.0",
+    "socket.io": "~0.9.13"
+  },
+  "devDependencies": {
+    "webpack": "1.12.9"
   }
 }
