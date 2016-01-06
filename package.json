@@ -1,6 +1,6 @@
 {
   "name": "Telegraph-Roulette",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Telegraph-Roulette ==================",
   "main": "app.js",
   "scripts": {
@@ -10,16 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Rob-ot/Telegraph-Roulette.git"
+    "url": "git://github.com/jergason/Telegraph-Roulette.git"
   },
   "author": "",
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies": {
     "async": "1.5.1",
-    "express": "~3.0.5",
+    "express": "3.0.6",
     "notes-to-frequencies": "1.0.0",
-    "socket.io": "~0.9.13"
+    "socket.io": "0.9.17"
   },
   "devDependencies": {
     "webpack": "1.12.9"
